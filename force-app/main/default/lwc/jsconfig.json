@@ -2,11 +2,7 @@
     "compilerOptions": {
         "experimentalDecorators": true,
         "baseUrl": ".",
-        "paths": {
-            "c/wnhc-live-summary": [
-                "wnhcLiveSummary/wnhcLiveSummary.js"
-            ]
-        }
+        "paths": {}
     },
     "include": [
         "**/*",

@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
   <types>
-    <name>LightningComponentBundle</name>
-    <members>wnhcLiveSummary</members>
-  </types>
-  <types>
     <name>ApexClass</name>
     <members>*</members>      
   </types>
@@ -34,6 +30,14 @@
   </types>
   <types>
     <name>CustomObject</name>
+    <members>*</members>
+  </types>
+  <types>
+    <name>CustomField</name>
+    <members>*</members>
+  </types>
+  <types>
+    <name>QuickAction</name>
     <members>*</members>
   </types>
   <version>45.0</version>

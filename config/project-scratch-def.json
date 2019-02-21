@@ -1,7 +1,4 @@
 {
-    "orgName": "shinny Company",
-    "edition": "Developer",
-    "orgPreferences" : {
-        "enabled": ["S1DesktopEnabled"]
-    }
+    "orgName": "WNHC Scratch Org",
+    "edition": "Developer"
 }
