@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clock_Minute_Must_Be_0_to_7</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  NOT(ISPICKVAL( Status__c , &quot;Scheduled&quot; )),
+  OR( 
+     Clock_Minute__c  &lt; 0,
+     Clock_Minute__c &gt; 7
+  )
+)</errorConditionFormula>
+    <errorMessage>Clock Minute must be 0 to 7.</errorMessage>
+</ValidationRule>

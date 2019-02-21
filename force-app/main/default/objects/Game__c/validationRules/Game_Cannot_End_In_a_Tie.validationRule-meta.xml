@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Game_Cannot_End_In_a_Tie</fullName>
+    <active>true</active>
+    <description>Game cannot end in a tie.</description>
+    <errorConditionFormula>AND(
+  ISPICKVAL( Status__c , &quot;Completed&quot; ),
+  Player_1_Score__c =  Player_2_Score__c
+)</errorConditionFormula>
+    <errorMessage>Game cannot end in a tie.</errorMessage>
+</ValidationRule>

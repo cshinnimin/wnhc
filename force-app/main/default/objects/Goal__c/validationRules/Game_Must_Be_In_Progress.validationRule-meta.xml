@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Game_Must_Be_In_Progress</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(ISPICKVAL( Game__r.Status__c , &quot;In Progress&quot;))</errorConditionFormula>
+    <errorMessage>Game must be in progress to add or modify goals.</errorMessage>
+</ValidationRule>

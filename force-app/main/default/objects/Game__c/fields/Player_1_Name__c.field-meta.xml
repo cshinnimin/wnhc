@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Player_1_Name__c</fullName>
+    <description>Player 1 Name</description>
+    <externalId>false</externalId>
+    <formula>IMAGE( Player_1__r.Team__r.Icon_Link__c , Player_1__r.Name__c, 25, 25) + &quot; &quot; + Player_1__r.Name__c</formula>
+    <label>Player 1 Name</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

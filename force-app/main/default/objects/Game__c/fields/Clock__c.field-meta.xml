@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clock__c</fullName>
+    <description>Clock Time</description>
+    <externalId>false</externalId>
+    <formula>TEXT(Clock_Minute__c) &amp; &quot;:&quot; &amp; LPAD(TEXT(Clock_Second__c), 2, &#39;0&#39;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Clock</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

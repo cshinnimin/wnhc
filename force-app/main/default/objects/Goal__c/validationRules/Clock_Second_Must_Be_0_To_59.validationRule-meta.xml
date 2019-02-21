@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clock_Second_Must_Be_0_To_59</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR( 
+     Clock_Second__c  &lt; 0,
+     Clock_Second__c &gt; 59,
+     AND(Clock_Minute__c = 7, Clock_Second__c &lt;&gt; 0)
+  )</errorConditionFormula>
+    <errorMessage>Clock second must be 0 to 59.
+Clock second must be 0 if clock minute is 7.</errorMessage>
+</ValidationRule>

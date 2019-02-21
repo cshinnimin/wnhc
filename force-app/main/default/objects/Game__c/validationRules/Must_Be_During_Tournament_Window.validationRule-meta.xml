@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Must_Be_During_Tournament_Window</fullName>
+    <active>true</active>
+    <description>Game must be scheduled between the tournament start and end time.</description>
+    <errorConditionFormula>OR( Game_Date_and_Time__c &lt;  Tournament__r.Start_Date_and_Time__c ,  Game_Date_and_Time__c &gt;  Tournament__r.End_Date_and_Time__c )</errorConditionFormula>
+    <errorDisplayField>Game_Date_and_Time__c</errorDisplayField>
+    <errorMessage>Game must be scheduled between the tournament start and end time.</errorMessage>
+</ValidationRule>

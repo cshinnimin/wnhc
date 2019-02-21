@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Period_Must_Be_1_To_4</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR( 
+     Period__c &lt; 1,
+     Period__c &gt; 4
+  )</errorConditionFormula>
+    <errorMessage>Period must be 1 to 4 (4 = OT/SO).</errorMessage>
+</ValidationRule>

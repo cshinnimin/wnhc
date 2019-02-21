@@ -1,0 +1,1 @@
+public abstract class WNHC_Base_Exception extends Exception {}

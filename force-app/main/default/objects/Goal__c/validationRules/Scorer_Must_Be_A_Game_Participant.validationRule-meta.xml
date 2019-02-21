@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scorer_Must_Be_A_Game_Participant</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  Scorer__r.Id &lt;&gt; Game__r.Player_1__r.Id,
+  Scorer__r.Id &lt;&gt; Game__r.Player_2__r.Id
+)</errorConditionFormula>
+    <errorDisplayField>Scorer__c</errorDisplayField>
+    <errorMessage>Scorer must be a participant in this game (Player 1 or Player 2).</errorMessage>
+</ValidationRule>
