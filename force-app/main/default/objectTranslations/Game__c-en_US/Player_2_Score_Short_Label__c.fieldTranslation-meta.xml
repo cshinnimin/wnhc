@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Score --></label>
+    <name>Player_2_Score_Short_Label__c</name>
+</CustomFieldTranslation>

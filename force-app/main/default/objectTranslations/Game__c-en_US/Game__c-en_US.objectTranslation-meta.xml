@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Game</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Games</value>
+    </caseValues>
+    <layouts>
+        <layout>Game Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Clock Minute must be 0 to 7. --></errorMessage>
+        <name>Clock_Minute_Must_Be_0_to_7</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Clock second must be 0 to 59.
+Clock second must be 0 if clock minute is 7. --></errorMessage>
+        <name>Clock_Second_Must_Be_0_To_59</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Game cannot end in a tie. --></errorMessage>
+        <name>Game_Cannot_End_In_a_Tie</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Game must be scheduled between the tournament start and end time. --></errorMessage>
+        <name>Must_Be_During_Tournament_Window</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Period must be 1 to 4 (4 = OT/SO). --></errorMessage>
+        <name>Period_Must_Be_1_To_4</name>
+    </validationRules>
+</CustomObjectTranslation>

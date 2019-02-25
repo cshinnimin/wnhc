@@ -18,7 +18,12 @@
   </types>
   <types>
     <name>Layout</name>
-    <members>*</members>
+    <members>Game__c-Game Layout</members>
+    <members>Goal__c-Goal Layout</members>
+    <members>Participant__c-Participant Layout</members>
+    <members>Standing__c-Standing Layout</members>
+    <members>Team__c-Team Layout</members>
+    <members>Tournament__c-Tournament Layout</members>
   </types>
   <types>
     <name>StaticResource</name>
@@ -30,15 +35,191 @@
   </types>
   <types>
     <name>CustomObject</name>
+    <members>Game__c</members>
+    <members>Goal__c</members>
+    <members>Participant__c</members>
+    <members>Standing__c</members>
+    <members>Team__c</members>
+    <members>Tournament__c</members>
+  </types>
+  <types>
+    <name>CustomApplication</name>
     <members>*</members>
+  </types>
+  <types>
+    <name>Dashboard</name>
+    <members>Public_Dashboards</members>
+    <members>Public_Dashboards/2018_World_Nintendo_Hockey_Championship</members>
   </types>
   <types>
     <name>CustomField</name>
-    <members>*</members>
+    <members>Game__c.Clock__c</members>
+    <members>Game__c.Clock_Minute__c</members>
+    <members>Game__c.Clock_Second__c</members>
+    <members>Game__c.Game_Date_and_Time__c</members>
+    <members>Game__c.Loser__c</members>
+    <members>Game__c.Loser_Name__c</members>
+    <members>Game__c.Period__c</members>
+    <members>Game__c.Player_1__c</members>
+    <members>Game__c.Player_1_Name__c</members>
+    <members>Game__c.Player_1_Score__c</members>
+    <members>Game__c.Player_1_Score_Short_Label__c</members>
+    <members>Game__c.Player_2__c</members>
+    <members>Game__c.Player_2_Name__c</members>
+    <members>Game__c.Player_2_Score__c</members>
+    <members>Game__c.Player_2_Score_Short_Label__c</members>
+    <members>Game__c.Status__c</members>
+    <members>Game__c.Tournament__c</members>
+    <members>Game__c.Tournament_Name__c</members>
+    <members>Game__c.Winner__c</members>
+    <members>Game__c.Winner_Name__c</members>
+    <members>Game__c.WNHC_Game_Id__c</members>
+    <members>Goal__c.Clock_Minute__c</members>
+    <members>Goal__c.Clock_Second__c</members>
+    <members>Goal__c.Description__c</members>
+    <members>Goal__c.Game__c</members>
+    <members>Goal__c.Period__c</members>
+    <members>Goal__c.Scorer__c</members>
+    <members>Goal__c.Scorer_Icon__c</members>
+    <members>Goal.OrigGoalId__c</members>
+    <members>Participant__c.Name__c</members>
+    <members>Participant__c.Team__c</members>
+    <members>Participant__c.Team_Name__c</members>
+    <members>Standing__c.GA__c</members>
+    <members>Standing__c.GF__c</members>
+    <members>Standing__c.GP__c</members>
+    <members>Standing__c.L__c</members>
+    <members>Standing__c.Participant__c</members>
+    <members>Standing__c.Participant_Name__c</members>
+    <members>Standing__c.Plus_Minus__c</members>
+    <members>Standing__c.PTS__c</members>
+    <members>Standing__c.Tournament__c</members>
+    <members>Standing__c.W__c</members>
+    <members>Team__c.Icon__c</members>
+    <members>Team__c.Icon_Link__c</members>
+    <members>Team__c.Name__c</members>
+    <members>Tournament__c.End_Date_and_Time__c</members>
+    <members>Tournament__c.Name__c</members>
+    <members>Tournament__c.Start_Date_and_Time__c</members>
+  </types>
+  <types>
+    <name>CompactLayout</name>
+    <members>Goal__c.Goal_Compact_Layout</members>
+  </types>
+  <types>
+    <name>ConnectedApp</name>
+    <members>WNHC_Connected_App</members>
+  </types>
+  <types>
+    <name>ContentAsset</name>
+    <members>icehockey</members>
+  </types>
+  <types>
+    <name>CustomObjectTranslation</name>
+    <members>Game__c-en_US</members>
+    <members>Goal__c-en_US</members>
+    <members>Participant__c-en_US</members>
+    <members>Standing__c-en_US</members>
+    <members>Team__c-en_US</members>
+    <members>Tournament__c-en_US</members>
+  </types>
+  <types>
+    <name>CustomTab</name>
+    <members>Game__c</members>
+    <members>Goal__c</members>
+    <members>Participant__c</members>
+    <members>Standing__c</members>
+    <members>Team__c</members>
+    <members>Tournament__c</members>
+  </types>
+  <types>
+    <name>Dashboard</name>
+    <members>Public_Dashboards</members>
+    <members>Public_Dashboards/bboamOtPnJbznJbcGWlodsRprtQacp</members>
+  </types>
+  <types>
+    <members>WNHC_Scoreboard_UtilityBar</members>
+    <name>FlexiPage</name>
+  </types>
+  <types>
+    <name>ListView</name>
+    <members>Game__c.All</members>
+    <members>Goal__c.All</members>
+    <members>Participant__c.All</members>
+    <members>Standing__c.All</members>
+    <members>Team__c.All</members>
+    <members>Tournament__c.All</members>
+  </types>
+  <types>
+    <name>Profile</name>
+    <members>Admin</members>
+    <members>Public</members>
+    <members>Timekeeper</members>
+  </types>
+  <types>
+    <name>ProfilePasswordPolicy</name>
+    <members>Public_profilePasswordPolicy1547352634465</members>
+    <members>Timekeeper_profilePasswordPolicy1546115087495</members>
+  </types>
+  <types>
+    <name>ProfileSessionSetting</name>
+    <members>null_profileSessionSetting1547352634488</members>
+    <members>Timekeeper_profileSessionSetting1546115087546</members>
   </types>
   <types>
     <name>QuickAction</name>
-    <members>*</members>
+    <members>Game__c.Add_Goal</members>
+    <members>Game__c.API_Update</members>
+    <members>Game__c.Update_Clock</members>
+    <members>Game__c.Update_Period</members>
+    <members>Game__c.Update_Status</members>
+  </types>
+  <types>
+    <name>RemoteSiteSetting</name>
+    <members>ApexDevNet</members>
+    <members>WNHC_Server</members>
+  </types>
+  <types>
+    <name>Report</name>
+    <members>unfiled$public</members>
+    <members>unfiled$public/Games_In_Progress_zu1</members>
+    <members>unfiled$public/Standings_Test_Tournament_fs1</members>
+    <members>unfiled$public/X2018_WNHC_Games_Completed_2ic</members>
+    <members>unfiled$public/X2018_WNHC_Games_Scheduled_KXL</members>
+  </types>
+  <types>
+    <name>ReportType</name>
+    <members>Games</members>
+    <members>Standings</members>
+  </types>
+  <types>
+    <name>SharingRules</name>
+    <members>Participant__c</members>
+    <members>Team__c</members>
+    <members>Tournament__c</members>
+  </types>
+  <types>
+    <name>TopicsForObjects</name>
+    <members>Game__c</members>
+    <members>Goal__c</members>
+    <members>Participant__c</members>
+    <members>Standing__c</members>
+    <members>Team__c</members>
+    <members>Tournament__c</members>
+  </types>
+  <types>
+    <name>ValidationRule</name>
+    <members>Game__c.Clock_Minute_Must_Be_0_to_7</members>
+    <members>Game__c.Clock_Second_Must_Be_0_To_59</members>
+    <members>Game__c.Game_Cannot_End_In_a_Tie</members>
+    <members>Game__c.Must_Be_During_Tournament_Window</members>
+    <members>Game__c.Period_Must_Be_1_To_4</members>
+    <members>Goal__c.Clock_Minute_Must_Be_0_to_7</members>
+    <members>Goal__c.Clock_Second_Must_Be_0_To_59</members>
+    <members>Goal__c.Game_Must_Be_In_Progress</members>
+    <members>Goal__c.Period_Must_Be_1_To_4</members>
+    <members>Goal__c.Scorer_Must_Be_A_Game_Participant</members>
+    <members>Tournament__c.Must_Be_After_Start_Date_and_Time</members>
   </types>
   <version>45.0</version>
 </Package>
