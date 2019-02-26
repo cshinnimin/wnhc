@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <logo>icehockey</logo>
+        <logoVersion>1</logoVersion>
+    </brand>
+    <description>A live scoreboard and standings system for the World Nintendo Hockey Championship.</description>
+    <formFactors>Large</formFactors>
+    <label>WNHC Scoreboard</label>
+    <navType>Standard</navType>
+    <tab>standard-AppLauncher</tab>
+    <tab>Tournament__c</tab>
+    <tab>Team__c</tab>
+    <tab>Participant__c</tab>
+    <tab>Game__c</tab>
+    <tab>Goal__c</tab>
+    <tab>Standing__c</tab>
+    <uiType>Lightning</uiType>
+    <utilityBar>WNHC_Scoreboard_UtilityBar</utilityBar>
+</CustomApplication>
