@@ -30,6 +30,10 @@
     <members>*</members>
   </types>
   <types>
+    <members>WNHC_Scoreboard_UtilityBar</members>
+    <name>FlexiPage</name>
+  </types>
+  <types>
     <name>Flow</name>
     <members>*</members>
   </types>
